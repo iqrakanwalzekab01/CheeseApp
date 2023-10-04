@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hp.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:8:5-41:19
+20        android:allowBackup="true"
+20-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:10:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:11:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:12:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:13:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:14:9-40
+29        <activity
+29-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:15:9-17:40
+30            android:name="com.example.hp.myapplication.AddItemtofire"
+30-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:16:13-42
+31            android:exported="false" />
+31-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:17:13-37
+32        <activity
+32-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:18:9-26:20
+33            android:name="com.example.hp.myapplication.WelcomeActivity"
+33-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:19:13-44
+34            android:exported="true" >
+34-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:20:13-36
+35            <intent-filter>
+35-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:21:13-25:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:22:17-69
+36-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:24:17-77
+38-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:24:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:27:9-30:47
+42            android:name="com.example.hp.myapplication.MainActivity"
+42-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:28:13-41
+43            android:label="@string/title_activity_welcome"
+43-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:29:13-59
+44            android:theme="@style/AppTheme" />
+44-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:30:13-44
+45        <activity android:name="com.example.hp.myapplication.SignIn" />
+45-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:31:9-44
+45-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:31:19-41
+46        <activity android:name="com.example.hp.myapplication.AdminSide" />
+46-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:32:9-47
+46-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:32:19-44
+47        <activity android:name="com.example.hp.myapplication.SignUp" />
+47-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:33:9-44
+47-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:33:19-41
+48        <activity
+48-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:34:9-37:47
+49            android:name="com.example.hp.myapplication.Home"
+49-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:35:13-33
+50            android:label="@string/title_activity_home"
+50-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:36:13-56
+51            android:theme="@style/AppTheme" />
+51-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:37:13-44
+52        <activity android:name="com.example.hp.myapplication.FoodList" />
+52-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:38:9-46
+52-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:38:19-43
+53        <activity android:name="com.example.hp.myapplication.FoodDetail" />
+53-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:39:9-48
+53-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:39:19-45
+54        <activity android:name="com.example.hp.myapplication.Cart" />
+54-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:40:9-42
+54-->C:\Users\Developer-IQra\Downloads\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:40:19-39
+55
+56        <provider
+56-->[com.squareup.picasso:picasso:2.71828] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+57            android:name="com.squareup.picasso.PicassoProvider"
+57-->[com.squareup.picasso:picasso:2.71828] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+58            android:authorities="com.example.hp.myapplication.com.squareup.picasso"
+58-->[com.squareup.picasso:picasso:2.71828] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+59            android:exported="false" />
+59-->[com.squareup.picasso:picasso:2.71828] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+60
+61        <service
+61-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:11:9-17:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:12:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:13:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:14:13-16:85
+66                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+66-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:15:17-124
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:16:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+69                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+69-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Developer-IQra\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+72                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+72-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+75                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+75-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+77            <meta-data
+77-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+78                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+78-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+81                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+81-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+83        </service>
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+89
+90        <provider
+90-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+91            android:name="com.google.firebase.provider.FirebaseInitProvider"
+91-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+92            android:authorities="com.example.hp.myapplication.firebaseinitprovider"
+92-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+94            android:exported="false"
+94-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+95            android:initOrder="100" />
+95-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Developer-IQra\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+96
+97        <receiver
+97-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+98            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+98-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+99            android:enabled="true"
+99-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+101        </receiver>
+102
+103        <service
+103-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+104            android:name="com.google.android.gms.measurement.AppMeasurementService"
+104-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+106            android:exported="false" />
+106-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+107        <service
+107-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+108            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+108-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+111            android:permission="android.permission.BIND_JOB_SERVICE" />
+111-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Developer-IQra\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+116    </application>
+117
+118</manifest>
